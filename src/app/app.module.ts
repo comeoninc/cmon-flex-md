@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
@@ -12,7 +11,6 @@ import { AppComponent } from './app.component';
 @NgModule({
   imports: [
   BrowserModule,
-  FormsModule,
   MDBBootstrapModule.forRoot(),
   FlexLayoutModule
   ],
@@ -20,6 +18,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent],
   providers: [Camera],
   schemas: [ NO_ERRORS_SCHEMA ]
-
 })
 export class AppModule {}
