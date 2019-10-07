@@ -12,9 +12,9 @@ import { AppComponent } from './app.component';
 @NgModule({
   imports: [
   BrowserModule,
-  FlexLayoutModule,
   FormsModule,
-  MDBBootstrapModule.forRoot()
+  MDBBootstrapModule.forRoot(),
+  FlexLayoutModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
@@ -23,4 +23,3 @@ import { AppComponent } from './app.component';
 
 })
 export class AppModule {}
-

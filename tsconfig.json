@@ -21,6 +21,10 @@
       "angular-bootstrap-md": [
         "dist/angular-bootstrap-md"
       ],
+        "exclude": [
+        "node_modules",
+        "platforms"
+    ],
       "angular-bootstrap-md/*": [
         "dist/angular-bootstrap-md/*"
       ]
